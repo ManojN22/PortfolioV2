@@ -12,3 +12,10 @@ This is my portfolio website to introduce myself, here I put my skills, projects
 ## To run this project:
 - yarn install
 - yarn run start
+
+
+## docker 
+### build :
+    docker build -t portfolio .
+### Deploy
+    docker run -d -p 5050:5050 --name portfolio personal-website
